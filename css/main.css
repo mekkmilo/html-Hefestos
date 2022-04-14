@@ -160,7 +160,7 @@ header{
   rgba(203, 160,82, .6),
   rgba(203, 160,82, .6),
   rgba(203, 160,82, .45)
-  ), url(/img/04.jpg);
+  ), url(../img/04.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;/*centra inmagen*/

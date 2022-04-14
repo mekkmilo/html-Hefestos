@@ -5123,7 +5123,7 @@
 			.append(
 				$(_div, { 'class': classes.sScrollBody } )
 					.css( {
-						position: 'relative',
+						position: 'static',
 						overflow: 'auto',
 						width: size( scrollX )
 					} )

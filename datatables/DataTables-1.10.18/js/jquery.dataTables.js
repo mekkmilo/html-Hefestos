@@ -5087,7 +5087,7 @@
 				$(_div, { 'class': classes.sScrollHead } )
 					.css( {
 						overflow: 'hidden',
-						position: 'relative',
+						position: 'static',
 						border: 0,
 						width: scrollX ? size(scrollX) : '100%'
 					} )
@@ -5111,7 +5111,7 @@
 			.append(
 				$(_div, { 'class': classes.sScrollBody } )
 					.css( {
-						position: 'relative',
+						position: 'static',
 						overflow: 'auto',
 						width: size( scrollX )
 					} )

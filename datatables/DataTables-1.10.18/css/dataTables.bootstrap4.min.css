@@ -1,12 +1,11 @@
 table.dataTable {
+    color: #cba052;
     clear: both;
-    margin-left: 10px;
     margin-top: 6px !important;
     margin-bottom: 6px !important;
     max-width: none !important;
     border-collapse: separate !important;
     border-spacing: 0
-   
 }
 
 table.dataTable td,
@@ -26,7 +25,7 @@ table.dataTable.nowrap td {
 }
 
 div.dataTables_wrapper div.dataTables_length label {
-    margin-left: 5%;
+    color: #cba052;
     font-weight: normal;
     text-align: left;
     white-space: nowrap
@@ -42,37 +41,34 @@ div.dataTables_wrapper div.dataTables_filter {
 }
 
 div.dataTables_wrapper div.dataTables_filter label {
+    color: #cba052;
     font-weight: normal;
     white-space: nowrap;
     text-align: left
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
-    margin-right: 5%;
-    margin-bottom: 1%;
-    display: inherit;
+    margin-left: 0.5em;
+    display: inline-block;
     width: auto
 }
 
 div.dataTables_wrapper div.dataTables_info {
     color: #cba052;
-    padding-top: 1.85em;
+    padding-top: 0.85em;
     white-space: nowrap
-    
 }
 
 div.dataTables_wrapper div.dataTables_paginate {
     margin: 0;
     white-space: nowrap;
-    text-align: center;
+    text-align: right
 }
 
-div.dataTables_wrapper div.dataTables_paginate ul.pagination {/*pendiente modificar*/
-    display: none;
-    margin: 10px ;
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
     white-space: nowrap;
     justify-content: flex-end
-    
 }
 
 div.dataTables_wrapper div.dataTables_processing {
@@ -227,9 +223,7 @@ table.table-bordered.dataTable td:last-child {
 
 table.table-bordered.dataTable tbody th,
 table.table-bordered.dataTable tbody td {
-    color: #cba052;
     border-bottom-width: 0
-    
 }
 
 div.dataTables_scrollHead table.table-bordered {
@@ -241,7 +235,6 @@ div.table-responsive>div.dataTables_wrapper>div.row {
 }
 
 div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:first-child {
-    color: #cba052;
     padding-left: 0
 }
 
