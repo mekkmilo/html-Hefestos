@@ -160,7 +160,7 @@ header{
   rgba(203, 160,82, .6),
   rgba(203, 160,82, .6),
   rgba(203, 160,82, .45)
-  ), url(../img/04.jpg);
+  ), url(/img/04.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;/*centra inmagen*/
@@ -295,7 +295,7 @@ font-weight: 300;
 }
 
 .people{
-  height: 80%;/*tamaño imagen personas*/
+  height: 80%;/*tama�o imagen personas*/
 }
 
 .content-card img{
@@ -409,13 +409,6 @@ color: #000;
 .textos-work h4{
   line-height: 30px;/*solo funciona con lineas cortas*/
   font-weight: 300;
-}
-
-
-/*data table*/
-
-.td{
-  color:#CBA052
 }
 
 /*footer*/
